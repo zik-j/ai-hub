@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "timezone": "Europe/London",
+  "writers": ["chatgpt", "claude", "gemini", "codex"],
+  "threads": [
+    { "id": "coursework", "title": "Coursework", "private": false },
+    { "id": "job-search", "title": "Job search", "private": false },
+    { "id": "private-admin", "title": "Private admin", "private": true }
+  ]
+}
